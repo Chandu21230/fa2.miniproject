@@ -1,0 +1,143 @@
+body{
+    background-image: url("sathyaback.jpg");
+    background-size: cover; 
+    background-position: relative;
+    top:100px;
+    background-repeat: no-repeat;
+   
+}
+header{
+    background-color: gold ;
+    font-size: x-large;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 20px 100px;
+}
+.di{
+    box-shadow: 10px 40px 70px black;
+    background-color: burlywood;
+    border-radius: 55px;
+}
+.all{
+    display: flex;
+    
+}
+.sai{
+    text-align: center;
+    font-style: oblique;
+   position: relative;
+   left: 70px; 
+   top: 100px;
+   border-style: ridge;
+   padding: 50px;
+   padding-left: -20px;
+   border-radius: 50px;
+   opacity: 1;
+   box-shadow: 10px 20px 100px black; 
+    
+}
+.pt{
+    text-align: center;
+    font-style: oblique;
+    position: relative;
+    left: 450px;
+    top:100px;
+    padding: 50px;
+    border-style: ridge;
+    border-radius: 50px;
+    
+    opacity: 1;
+    box-shadow: 50px 20px 100px black;
+}
+.ip{
+    border-radius: 100px;
+    padding-top: 5px;
+    position: relative;
+    bottom: 5px;
+    box-shadow: 10px 0px 20px;
+}
+.PI{
+    border-radius: 100px;
+    padding-top: 5px;
+    box-shadow: 20px 0px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+nav ul li a:hover{
+    background-color:#fff;
+    color:black;
+    box-shadow: 5px 10px 30px gold;
+}
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 22px;
+    display: flex;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 1000;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition-timing-function: 0.6s ease-in-out;
+    color: rgb(0, 0, 0);
+}
+nav ul{
+    display: flex;
+}
+nav ul li a:hover{
+    background-color: whitesmoke;
+    color:black;
+    box-shadow: 5px 10px 30px gold;
+}
+#button {
+    height: 30px;
+    width: 200px;
+    position:relative;
+    top: 400px;
+    right: 285PX;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+#button1{
+    height: 30px;
+    width: 200px;
+    position:relative;
+    top: 440px;
+    right: 480PX;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+#button2{
+    height: 30px;
+    width: 200px;
+    position:relative;
+    top: 480px;
+    right: 675PX;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+.logo{
+  height: 100px;
+  position: relative;
+  left: -375px;
+  top: 400px;
+}
+#para{
+    position: relative;
+    top: 500px;
+    right: 470px;
+ background-color: whitesmoke;
+ height: 25px;
+ width: 120px;
+ text-align: center;
+ border-radius: 5px;
+}
