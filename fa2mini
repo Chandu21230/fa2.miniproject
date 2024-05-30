@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fa2login.css">
+    <title>Exam Monitoring</title>
+</head>
+<header>EXAMINATION PORTAL</header>
+<body>
+    <section class="main">
+        <nav>
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Join Us</a></li>
+                <li><a href="#">Learning</a></li>
+                <li><a href="#">Staff</a></li>
+            </ul>
+        </nav>
+    </section>
+ <div class="all"> 
+    <div class="sai">
+        <h1 class="di">Student Login</h1>
+<input type="text" class="ip" placeholder="Enter Your Reg.No"  >
+<input type="password" class="PI" placeholder="Enter Password" >
+    </div>
+    <form action="https://www.sathyabama.ac.in/">
+        <input type="image" src="sathyalogo.jpg" class="logo">
+    </form>
+    <p id="para">Reach us at:</p>
+    <div class="pt">
+        <h1 class="di">Staff Login</h1>
+        <input type="text"  class="ip" placeholder="Enter Employee ID">
+        <input type="password"  class="PI" placeholder="Enter Password">
+    </div>
+    <input type="submit" id="button" VALUE="Login">
+    <input type="button" id="button1" value="Forgot password?/ID">
+    <input type="submit" id="button2" value="SignUp">
+   </div> 
+</body>
+</html>
